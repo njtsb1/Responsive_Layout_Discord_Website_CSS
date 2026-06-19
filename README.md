@@ -29,3 +29,5 @@ In this challenge, you'll get hands-on experience and recreate the page for the 
 - Implement responsive navigation with a hamburger menu for small screens.
 - Add color contrast tests to ensure WCAG compliance.
 - Expand the `translations` object for more dynamic text and content.
+
+[LICENSE](/LICENSE) 
