@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Discord Clone - Landing</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a class="brand" href="#" aria-label="Home">
+        <svg class="logo" width="36" height="36" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <circle cx="12" cy="12" r="10" fill="currentColor"></circle>
+        </svg>
+        <span class="brand-name">DiscoLearn</span>
+      </a>
+
+      <nav class="main-nav" role="navigation" aria-label="Main Navigation">
+        <ul>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#how">Como funciona</a></li>
+          <li><a href="#cta">Entrar</a></li>
+        </ul>
+      </nav>
+
+      <div class="controls" aria-hidden="false">
+        <label class="sr-only" for="lang-select">Language</label>
+        <select id="lang-select" aria-label="Select language">
+          <option value="en-US">EN-US</option>
+          <option value="pt-BR">PT-BR</option>
+          <option value="es">ES</option>
+        </select>
+
+        <button id="theme-toggle" class="theme-toggle" aria-pressed="false" aria-label="Toggle dark mode">
+          <!-- Moon icon (dark) -->
+          <svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path fill="currentColor" d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+          </svg>
+          <!-- Sun icon (light) -->
+          <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path fill="currentColor" d="M6.76 4.84l-1.8-1.79L3.17 4.84l1.79 1.79 1.8-1.79zM1 13h3v-2H1v2zm10 9h2v-3h-2v3zm7.03-2.03l1.79 1.79 1.79-1.79-1.79-1.79-1.79 1.79zM20 11v2h3v-2h-3zM4.22 19.78l1.79-1.79-1.79-1.79-1.79 1.79 1.79 1.79zM12 6a6 6 0 100 12 6 6 0 000-12z"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="site-main" role="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <h1 id="hero-title" class="title">Group chat full of fun and games</h1>
+          <p class="subtitle">Discord is great for hanging out with friends, gaming, or building a global community. Customize your space to chat, play, and enjoy.</p>
+
+          <div class="hero-actions">
+            <a id="cta" class="btn primary" href="#" role="button">Open Discord</a>
+            <a class="btn ghost" href="#" role="button">Learn more</a>
+          </div>
+        </div>
+
+        <aside class="hero-visual" aria-hidden="true">
+          <div class="device-mockup" aria-hidden="true">
+            <div class="screen"></div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="features" class="features container" aria-labelledby="features-title">
+      <h2 id="features-title">Features</h2>
+      <ul class="feature-list">
+        <li>
+          <h3 class="feature-title">Voice & Text</h3>
+          <p class="feature-desc">High quality voice channels and persistent text chat.</p>
+        </li>
+        <li>
+          <h3 class="feature-title">Communities</h3>
+          <p class="feature-desc">Create servers for friends, gaming, or study groups.</p>
+        </li>
+        <li>
+          <h3 class="feature-title">Customization</h3>
+          <p class="feature-desc">Roles, channels, and integrations to make it yours.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="how" class="how container" aria-labelledby="how-title">
+      <h2 id="how-title">How it works</h2>
+      <p>Simple: create a server, invite friends, and start chatting. Works on desktop, web, and mobile.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> DiscoLearn. All rights reserved.</p>
+      <nav aria-label="Footer Navigation">
+        <ul>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
